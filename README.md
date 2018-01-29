@@ -10,7 +10,7 @@
 - [Base de données](#base-de-données)
 - [GET POST](#get-post)
 - [CRUD](#crud)
-- [Les relations dans les BDD](#les-relations-dans-les-bdd)
+- [Les relations dans les BDD](#les-relations-dans-les-bdd)<br>
 -[Migration](#migration)
 
 
@@ -56,7 +56,7 @@ afin de d'indiquer au controleur les bonnes actions
 Bref c'est un peu un GPS qui dit au controlleur quel route prendre. 
 
 
-##Base de données 
+## Base de données 
 
 Centralise l'information (comme un gros excel avec pleins de feuilles)
 <img alt ="GIF papier" src="https://media.giphy.com/media/I77zvnnh76jug/giphy.gif">
@@ -74,13 +74,13 @@ POST quand on va écrire une information
 Ce sont des actions de bases pour une ressource (POST GET PUT DELETE)
 
 
-##Les relations dans les BDD
+## Les relations dans les BDD
 
 Dans une base de données nos tables peuvent être liées entre elles. Ces liaisons peuvent avoir un sens particulier.
 	*par exemple: un père peut avoir plusieurs enfants mais un enfant ne peut pas avoir plusieurs pères)*.
 
 
-##Migration 
+## Migration 
 
 On crée un fichier contenant les instructions qui servent à modifier notre base de données (ajouter des valeurs ,supprimme des colones etc).
 
